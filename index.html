@@ -1,50 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="Vincent Wambugu">
-	<meta name="description" content="The official website for the KomaRock Fish & Chips">
-	<title>KomaRock Fish & Chips</title>
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIKINGS RESTAURANT</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-
-
 <body>
-	<header>
-		<h1>Welcome to KomaRock Fish & Chips</h1>
-		<nav>
-			<ul>
-				<li>
-					<a href="#about">About <abbr title="KomaRock Fish & Chips">KRF&C</abbr></a>
-				</li>
-				<li>
-					<a href="#menu">Our Menu</a>
-				</li>
-				<li>
-					<a href="hours.html">Store Hours</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact Us</a>
-				</li>
-			</ul>
-		</nav>
+    
+<!-- header section starts      -->
 
-		<figure>
-			<img src="D:/coding/R.jpeg" alt="Fish & Chips" title="Welcome to the best Fish & Chips in Komarock" width="400" height="267">
-			<figcaption>
-				Fish & Chips
-			</figcaption>
-		</figure>
-	</header>
-	<hr>
-	<main>
-		<!-- our content -->
-	</main>
-	<hr>
-	<footer>
-		<p>Copyright &copy; KomaRock Fish & Chips</p>
-	</footer>
-</body>
+<header>
+
+    <a href="#" class="logo"><img src="favicon-32x32.png"/>VALHALLA</a>
+    
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="dishes.html">Menu</a>
+        <a href="about.html">about</a>
+        
+        <a href="reviews.html">review</a>
+        <a href="order.html">order</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>CHEF'S SPECIAL</span>
+                    <h3>spicy italian spaghetti</h3>
+                    <p>"Brace for a VIKING voyage! This spicy Italian spaghetti, forged in the fires of tradition, is a tempest of tantalizing tastes. A culinary war-cry, it's the perfect fuel for a warrior's last stand."</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our traditional dish</span>
+                    <h3>fried 'kuku sama' chicken</h3>
+                    <p>“Feast like a VIKING! This deep-fried chicken, seared in the flames of tradition and seasoned with joy, is a tempest of tantalizing tastes. Spiced to perfection, it’s a feast that would make even the most seasoned Viking warrior’s mouth water.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our coastal dish</span>
+                    <h3>Seafood pizza</h3>
+                    <p>"Embark on a VIKING feast! This seafood pizza, forged in the fires of tradition and seasoned with joy, is a tempest of tantalizing tastes. A true testament to the bountiful ocean, it's a gastronomic voyage worthy of a sea conqueror."</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="https://www.google.com/maps/place/Mombasa/@-4.0351887,39.6662631,12z/data=!3m1!4b1!4m6!3m5!1s0x184012e78ec02c7d:0xcb618bbc35d0db5a!8m2!3d-4.0434771!4d39.6682065!16zL20vMDFjZmQz?entry=ttu">mombasa</a>
+            <a href="https://www.google.com/maps/place/Machakos/@-1.5128474,37.2338595,14z/data=!3m1!4b1!4m6!3m5!1s0x182f80d053845451:0x6fb79f526ee1e067!8m2!3d-1.5176837!4d37.2634146!16zL20vMDhtNWti?entry=ttu">Machakos</a>
+            <a href="https://www.google.com/maps/place/Nakuru/@-0.3158105,35.9140438,11z/data=!3m1!4b1!4m6!3m5!1s0x18298d90cf610bef:0xf2f21833bc7cc21a!8m2!3d-0.3030988!4d36.080026!16zL20vMDY1MTNn?entry=ttu">Nakuru</a>
+            <a href="https://www.google.com/maps/place/Kisumu/@-0.0749725,34.573352,11z/data=!3m1!4b1!4m6!3m5!1s0x182aa437ad4ac81d:0x2012a439d6248dd2!8m2!3d-0.0917016!4d34.7679568!16zL20vMDJrNjQx?entry=ttu">Kisumu</a>
+            <a href="https://www.google.com/maps/place/Eldoret/@0.511756,35.1868092,12z/data=!3m1!4b1!4m6!3m5!1s0x178101ae37f9f535:0xe2db337df0fc0820!8m2!3d0.5142775!4d35.2697802!16zL20vMDJqXzdo?entry=ttu">Eldoret</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html">home</a>
+            <a href="dishes.html">dishes</a>
+            <a href="about.html">about</a>
+            <a href="reviews.html">reivew</a>
+            <a href="order.html">order</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+254759895315</a>
+            <a href="#">+254774146918</a>
+            <a href="#">vincent.wambugu@gmail.com</a>
+            <a href="#">wambugzzz@gmail.com</a>
+            <a href="#">Nairobi,Kenya- 400104</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://github.com/VinEast">Github</a>
+            <a href="https://twitter.com/vindoesnt">twitter</a>
+            <a href="https://www.instagram.com/wambugzzz/">instagram</a>
+            
+        </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2023 by <span>wambugzzz</span> </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader part  -->
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
 </body>
 </html>
